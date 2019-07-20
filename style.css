@@ -1,0 +1,128 @@
+@font-face {
+    font-family: Classical Garamond Regular;
+    src: url("../Classical Garamond Regular.otf") format("opentype");
+}
+body {
+    font-family:"Garamond";
+    background:#f5f5f5;
+    margin:15px;
+}
+h1 {
+    text-align:center;
+    font-weight:525;
+    text-transform:uppercase;
+    font-size:45px;
+}
+.container {
+    font-weight:700;
+    /* background-color:green; */
+    color:darkgrey;
+    text-align:left;
+   
+    margin:10px;
+   
+    
+}
+.question{
+    font-weight: 600;
+}
+.answers {
+  margin-bottom: 20px;
+}
+.answers label{
+  display: block;
+}
+.slide{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  .active-slide{
+    opacity: 1;
+    z-index: 2;
+  }
+  .quiz-container{
+    position: relative;
+    height: 200px;
+    margin-top: 40px;
+  }
+  
+#submit{
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: #279;
+    color: #fff;
+    border: 0px;
+    border-radius: 3px;
+    padding: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+#submit:hover{
+    background-color: #38a;
+}
+#questions {
+    background:white;
+    /* align:center; */
+    margin-left: 25%;
+    margin-right:25%;
+    border-image-source: url ("../week 5 hw/border.png");
+    /* border-width:3px; */
+}
+.start{
+    align-self: center;
+}
+.reset {
+    align-content: center;
+}
+  
+.jumbotron{
+    height: 25px;
+}
+.results{
+    font-family:"Garamond";
+    font-size:33px;
+       
+}
+.resultsContainer{
+ font-family:"Garamond";
+    font-size:33px;
+
+}
+
+.time-left {
+font-size:"5px";
+font-family:"Garamond";
+}
+a:link {
+    color: green; 
+    background-color: transparent; 
+    text-decoration: none;
+    font-size:22px;
+  }
+  
+  a:visited {
+    color: rgb(88, 30, 39);
+    background-color: transparent;
+    text-decoration: none;
+    font-size:22px;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+    font-size:22px;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+    font-size:22px;
+  }
+  
