@@ -180,7 +180,7 @@ mydiv.appendChild(aTag);};
         //  Set the button alert's timeout to run three seconds after the function's called.
         delayButtonAlert = setTimeout(function() {
           showResults(); nextButton.style.display = "none";answer();
-        }, 1000 * 3);
+        }, 1000 * 300);
     });
   })();
 
